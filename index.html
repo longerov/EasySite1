@@ -118,7 +118,7 @@ const LINES=[
  "дахар чохь хиларанна дукха воцуш",
  "хьо суна дукха хьоме ю. ❤️"
 ];
-const SIGN="С негативом";
+const SIGN="С любовью";
 const $=s=>document.querySelector(s),scene=$('.scene'),paper=$('.paper'),box=$('#lines');
 $('#tg').href=TG;
 [...LINES,SIGN].forEach((t,i,a)=>{const p=document.createElement('span');p.className='line'+(i==a.length-1?' sign':'');p.textContent=t;p.style.setProperty('--d',(i*.85)+'s');box.appendChild(p)});
