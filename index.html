@@ -108,15 +108,17 @@ body{background:radial-gradient(ellipse at 50% 40%,#0b1426,#04060c 70%);color:va
   </article>
 </main>
 <script>
-const TG="https://t.me/milkiwayyykaa"; // ← сюда ссылку на свой Telegram
+const TG="https://t.me/@Naurskii_651"; // ← сюда ссылку на свой Telegram
 const LINES=[
- "Глебчик, ты самый лучший",
- "и самый любимый человек в моей жизни",
- "я очень рада, что ты у меня есть ",
- "спасибо тебе за то, что ты появился в моей жизни",
- "я тебя очень сильно люблю"
+ "Мата, хьо суна дуьне ду❤️",
+ "Мата, хьо сан дог т1е йолу хаза",
+ "хьоме йо1 ю. Хьан йозанаш, хьан ",
+ "б1аьргаш, хьан къонахалла — массо",
+ " х1ума суна хазахетар ду. Хьо сан",
+ "дахар чохь хиларанна дукха воцуш",
+ "хьо суна дукха хьоме ю. ❤️"
 ];
-const SIGN="С любовью";
+const SIGN="С негативом";
 const $=s=>document.querySelector(s),scene=$('.scene'),paper=$('.paper'),box=$('#lines');
 $('#tg').href=TG;
 [...LINES,SIGN].forEach((t,i,a)=>{const p=document.createElement('span');p.className='line'+(i==a.length-1?' sign':'');p.textContent=t;p.style.setProperty('--d',(i*.85)+'s');box.appendChild(p)});
